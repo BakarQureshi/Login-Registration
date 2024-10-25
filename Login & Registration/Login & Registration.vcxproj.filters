@@ -35,14 +35,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header_file.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Registration\Registration.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Main Menu\Main_Menu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data_base.csv" />
   </ItemGroup>
 </Project>
