@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "../Registration/Registration.h"
 #include "Main_Menu.h"
 
 using namespace std;
@@ -18,11 +19,11 @@ string to_lower(string str) {
 
 int main_menu() {
 
+	cout << "\n\n\t\t\tWelcome\n" << endl;
+
 	bool flag = false;
 
 	while (!flag) {
-
-		system("cls");
 
 		cout << "\n\n\t\t\tDo you have already account? ( y / n)\n>> ";
 
