@@ -106,7 +106,7 @@ pair<string, string> password() {
 
 void delay() {
 
-    for (int i = 0; i < 100000000; i++) {}
+    for (int i = 0; i < 15000000; i++) {}
 }
 
 void print_line(int n) {
